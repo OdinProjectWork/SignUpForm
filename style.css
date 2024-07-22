@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url("Norse-Bold.otf")
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+
+}
+
+#background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 30%;
+    height: 100vh;
+
+}
+
+#background-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#odin-logo {
+    margin-top:10px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#logo-banner {
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 8em;
+    font-family: Norse-Bold, Cons;
+}
+
+#banner-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    padding: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0.6;
+    top: 20%;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(249, 250, 251, 255);
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 80px;
+    height: 200px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+#main-statement {
+    margin-bottom: 60px;
+    width: 705px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px -2px gray;
+    font-family: roboto;
+    height: 400px;
+}
+
+#title {
+    display: flex;
+    padding: 10px 80px 0px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#login-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0px 80px 60px 80px;
+    width: 400px;
+    height: 300px
+}
+
+p {
+    display: flex;
+    border-radius: 2px;
+    padding: 0px 200px 5px 0px;
+    opacity: 0.7;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+#submission {
+    display: flex;
+    font-family: roboto;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+#submit-button{
+    width: 250px;
+    height: 60px;
+    font-size: 1em;
+    background-color: #596D48;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 30px;
+    border: 4px solid;
+}
+
+input:focus{
+    border-color:blue;
+    border: 0px;
+}
+
+/* #pwd:invalid,
+#confirm-pwd:invalid {
+    border-color:red;
+    border-radius:4px;
+} */
+
+/* #pwd:valid,
+#confirm-pwd:valid {
+    border-color:green;
+    border-radius:4px;
+} */
+
